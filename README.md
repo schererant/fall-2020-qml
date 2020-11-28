@@ -1,3 +1,5 @@
+# QML - Mix
+
 ## Install dependencies
 
 Install python dependencies from Pipfile.lock in a new virtualenv (this might take some time)
@@ -6,6 +8,7 @@ Install python dependencies from Pipfile.lock in a new virtualenv (this might ta
 pipenv install
 ```
 
+## Start pipenv shell
 
 Start a pipenv shell. Inside this shell is where your dependencies from the previous step were installed. The dependencies can only be accessed inside the shell.  
    
@@ -13,9 +16,9 @@ Start a pipenv shell. Inside this shell is where your dependencies from the prev
 pipenv shell
 ```
 
-## Start jupyter notebook in lab
+## Start jupyter lab
 
-Once instide the shell, start a jupyter notebook. This should open a jupyter lab notebook environment in a browser:
+Once instide the shell, start a jupyter lab with the following command. This should open a jupyter lab notebook environment in a browser.
 
 ```buildoutcfg
 jupyter lab
@@ -27,11 +30,19 @@ jupyter notebook
 ```
 
 
+## Exit pipenv shell
+
+Simply type exit to get out. Or CNTR + D
+
+```
+exit
+```
+
 ## Install a new python package 
 
 If you need a new package, there are 2 ways to do it. 
 
-### Add package to Pipenv file manually
+### 1. Add package to Pipenv file manually
 
 Open the Pipenv file and add the package name and version. Then run this command (outside the pipenv shell). This will update the lock file
 
@@ -39,7 +50,7 @@ Open the Pipenv file and add the package name and version. Then run this command
 pipenv update
 ```
 
-### Add package from command line
+### 2. Add package from command line
 
 In the command line (outside the pipenv shell), add the package directly running this command:
 
