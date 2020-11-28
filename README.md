@@ -7,7 +7,7 @@ pipenv install
 ```
 
 
-Start a pipenv shell, from where you can access the installed python dependencies 
+Start a pipenv shell. Inside this shell is where your dependencies from the previous step were installed. The dependencies can only be accessed inside the shell.  
    
 ```buildoutcfg
 pipenv shell
@@ -15,13 +15,13 @@ pipenv shell
 
 ## Start jupyter notebook in lab
 
-Once instide the shell, start a jupyter notebook. This should open a jupyter lab browser with the notebook:
+Once instide the shell, start a jupyter notebook. This should open a jupyter lab notebook environment in a browser:
 
 ```buildoutcfg
 jupyter lab
 ```
 
-If you prefer jupyter notebook (old style stuff)
+If you prefer jupyter notebook (old style stuff):
 ```buildoutcfg
 jupyter notebook
 ```
