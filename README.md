@@ -1,5 +1,13 @@
 # QML - Mixed Squad
 
+## Install pipenv
+
+Open your python console and
+
+```buildoutcfg
+pip install pipenv
+```
+
 ## Install dependencies
 
 Install python dependencies from Pipfile.lock in a new virtualenv (this might take some time)
