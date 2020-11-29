@@ -1,4 +1,4 @@
-# QML - Mix
+# QML - Mixed Squad
 
 ## Install dependencies
 
